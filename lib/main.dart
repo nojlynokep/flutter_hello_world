@@ -10,14 +10,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
          backgroundColor: Colors.red, appBar: AppBar(
-            title: Text('This is Flutter'),
+            title: const Text('This is Flutter'),
     ),
-    body: Center(
+    body: const Center(
     child: Text('Hello World',
     style: TextStyle(
         fontSize: 42.0,//Делаем текст больше
