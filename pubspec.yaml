@@ -36,6 +36,17 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/icons/icon.png"
+  image_path_android: "assets/icons/icon.png"
+
+  # Тут я пытаюсь поиграть с иконками, не знаю получится ли.
+  # Версию лаунчера брал отсюда: https://pub.dev/packages/flutter_launcher_icons
+  # Гайд https://tsinis.medium.com/flutter-launcher-icons-ru-b1fb2576b1a1
   flutter_test:
     sdk: flutter
 
@@ -44,6 +55,8 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+
+
   flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
